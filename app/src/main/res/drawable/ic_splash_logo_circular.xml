@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp"
+    android:height="192dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+
+    <!-- Circular Background: Deep Midnight Slate -->
+    <path
+        android:pathData="M 96, 16 A 80, 80 0 1, 0 96, 176 A 80, 80 0 1, 0 96, 16 Z"
+        android:fillColor="#0F172A" />
+
+    <!-- Circular Accent Glow Border (Electric Cyan) -->
+    <path
+        android:pathData="M 96, 16 A 80, 80 0 1, 0 96, 176 A 80, 80 0 1, 0 96, 16 Z"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:fillColor="#00000000" />
+
+    <!-- Inner Subtle Concentric Ring -->
+    <path
+        android:pathData="M 96, 26 A 70, 70 0 1, 0 96, 166 A 70, 70 0 1, 0 96, 26 Z"
+        android:strokeColor="#1E293B"
+        android:strokeWidth="2"
+        android:fillColor="#00000000" />
+
+    <!-- Radial Stress Ring 1 (Inner Impact Wave) -->
+    <path
+        android:pathData="M 76,96 C 76,84.95 84.95,76 96,76 C 107.05,76 116,84.95 116,96 C 116,107.05 107.05,116 96,116 C 84.95,116 76,107.05 76,96 Z"
+        android:strokeColor="#60A5FA"
+        android:strokeWidth="1.8"
+        android:fillColor="#00000000" />
+
+    <!-- Radial Stress Ring 2 (Mid Impact Wave) -->
+    <path
+        android:pathData="M 62,96 C 62,77.22 77.22,62 96,62 C 114.78,62 130,77.22 130,96 C 130,114.78 114.78,130 96,130 C 77.22,130 62,114.78 62,96 Z"
+        android:strokeColor="#1E3A8A"
+        android:strokeWidth="1.2"
+        android:fillColor="#00000000" />
+
+    <!-- Primary Fracture 1: North-East Spine (White core + Cyan branch) -->
+    <path
+        android:pathData="M 96,96 L 105,80 L 118,68 L 126,48 L 138,34"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="miter" />
+    <path
+        android:pathData="M 105,80 L 122,86 L 136,82 L 152,76"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M 118,68 L 110,50 L 114,32"
+        android:strokeColor="#7DD3FC"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round" />
+
+    <!-- Primary Fracture 2: North-West Spine -->
+    <path
+        android:pathData="M 96,96 L 82,82 L 68,70 L 52,56 L 38,46"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.0"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="miter" />
+    <path
+        android:pathData="M 82,82 L 88,64 L 84,44 L 78,28"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M 68,70 L 50,78 L 32,80"
+        android:strokeColor="#7DD3FC"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round" />
+
+    <!-- Primary Fracture 3: South-East Spine -->
+    <path
+        android:pathData="M 96,96 L 108,112 L 124,126 L 140,144 L 154,158"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="miter" />
+    <path
+        android:pathData="M 108,112 L 126,106 L 146,110 L 164,104"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M 124,126 L 114,146 L 118,164"
+        android:strokeColor="#7DD3FC"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round" />
+
+    <!-- Primary Fracture 4: South-West Spine -->
+    <path
+        android:pathData="M 96,96 L 84,114 L 70,132 L 56,150 L 44,162"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.0"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="miter" />
+    <path
+        android:pathData="M 84,114 L 66,116 L 46,122 L 30,126"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M 70,132 L 80,150 L 82,168"
+        android:strokeColor="#7DD3FC"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round" />
+
+    <!-- Secondary Transverse Fissures (Interconnecting Web) -->
+    <path
+        android:pathData="M 105,80 L 96,76 L 82,82"
+        android:strokeColor="#93C5FD"
+        android:strokeWidth="1.6" />
+    <path
+        android:pathData="M 108,112 L 96,116 L 84,114"
+        android:strokeColor="#93C5FD"
+        android:strokeWidth="1.6" />
+    <path
+        android:pathData="M 122,86 L 126,106"
+        android:strokeColor="#60A5FA"
+        android:strokeWidth="1.4" />
+    <path
+        android:pathData="M 50,78 L 46,122"
+        android:strokeColor="#60A5FA"
+        android:strokeWidth="1.4" />
+
+    <!-- Center Impact Epicenter Crater (High Intensity Glint) -->
+    <path
+        android:pathData="M 96,92 L 99,96 L 96,100 L 93,96 Z"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M 92,96 L 96,93 L 100,96 L 96,99 Z"
+        android:fillColor="#E0F2FE" />
+
+    <!-- Micro Impact Shards (Specular Highlights) -->
+    <path
+        android:pathData="M 100,88 L 103,90 L 101,93 Z"
+        android:fillColor="#38BDF8" />
+    <path
+        android:pathData="M 90,103 L 93,105 L 89,107 Z"
+        android:fillColor="#38BDF8" />
+    <path
+        android:pathData="M 88,89 L 91,87 L 90,92 Z"
+        android:fillColor="#7DD3FC" />
+    <path
+        android:pathData="M 103,102 L 106,104 L 102,106 Z"
+        android:fillColor="#7DD3FC" />
+
+</vector>

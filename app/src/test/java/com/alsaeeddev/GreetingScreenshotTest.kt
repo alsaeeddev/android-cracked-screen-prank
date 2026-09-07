@@ -1,0 +1,41 @@
+package com.alsaeeddev
+
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.test.junit4.createComposeRule
+import androidx.compose.ui.test.onRoot
+import com.alsaeeddev.domain.model.CrackStyle
+import com.alsaeeddev.presentation.prank.CrackCanvas
+import com.alsaeeddev.ui.theme.MyApplicationTheme
+import com.github.takahirom.roborazzi.RobolectricDeviceQualifiers
+import com.github.takahirom.roborazzi.captureRoboImage
+import org.junit.Rule
+import org.junit.Test
+import org.junit.runner.RunWith
+import org.robolectric.RobolectricTestRunner
+import org.robolectric.annotation.Config
+import org.robolectric.annotation.GraphicsMode
+
+@RunWith(RobolectricTestRunner::class)
+@GraphicsMode(GraphicsMode.Mode.NATIVE)
+@Config(qualifiers = RobolectricDeviceQualifiers.Pixel8, sdk = [36])
+class GreetingScreenshotTest {
+
+  @get:Rule val composeTestRule = createComposeRule()
+
+  @Test
+  fun greeting_screenshot() {
+    composeTestRule.setContent {
+      MyApplicationTheme {
+        CrackCanvas(
+          crackStyle = CrackStyle.SPIDERWEB,
+          glintEnabled = false,
+          modifier = Modifier.fillMaxSize()
+        )
+      }
+    }
+
+    composeTestRule.onRoot().captureRoboImage(filePath = "src/test/screenshots/crack_canvas.png")
+  }
+}
+
